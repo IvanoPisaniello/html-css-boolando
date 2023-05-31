@@ -26,7 +26,7 @@ a {
 
 li {
     list-style-type: none;
-    margin: 0 5px;
+    margin-right: 5px;
 }
 
 .txt-white {
@@ -39,6 +39,10 @@ li {
 
 .txt-small {
     font-size: 0.7rem;
+}
+
+.txt-small9 {
+    font-size: 0.9rem;
 }
 
 /* header */
@@ -121,4 +125,20 @@ main {
 .eco {
     background-color: green;
     padding: 0.3rem 0.8rem;
+}
+
+/* footer */
+footer {
+    margin-top: 20px;
+    height: 80px;
+    padding: 20px 0;
+    background-color: #1A1A1A;
+}
+
+.footer-nav {
+    justify-content: space-between;
+}
+
+footer li {
+    margin-top: 10px;
 }
