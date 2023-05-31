@@ -19,18 +19,28 @@ body {
     display: flex;
 }
 
-a {
+header a {
     text-decoration: none;
     color: white;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
 li {
     list-style-type: none;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .txt-white {
     color: white;
+}
+
+.txt-black {
+    color: black;
 }
 
 .txt-red {
@@ -43,6 +53,10 @@ li {
 
 .txt-small9 {
     font-size: 0.9rem;
+}
+
+.strike {
+    text-decoration: line-through;
 }
 
 /* header */
@@ -108,7 +122,9 @@ main {
     right: 0px;
     background-color: white;
     padding: 10px;
+    color: black;
 }
+
 
 /* labels */
 .labels {
@@ -141,4 +157,26 @@ footer {
 
 footer li {
     margin-top: 10px;
+}
+
+/* bonus */
+
+.heart-red {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px;
+    color: red;
+}
+
+.heart:hover~.heart-red {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px;
+    color: red;
 }
