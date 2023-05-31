@@ -36,6 +36,7 @@ header {
     background-color: #EF6A04;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .navbar {
@@ -47,4 +48,39 @@ header {
 
 .logo {
     height: 30px;
+}
+
+/* cards */
+main {
+    padding-top: 80px;
+}
+
+.row {
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col {
+    height: 400px;
+    width: calc(33.3% - 1rem);
+    border: 1px dashed black;
+    position: relative;
+
+}
+
+.col img {
+    height: 100%;
+    width: 100%;
+}
+
+.d-none {
+    display: none;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.col:hover .d-none {
+    display: block;
 }
