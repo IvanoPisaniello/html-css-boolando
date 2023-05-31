@@ -29,6 +29,10 @@ li {
     margin: 0 5px;
 }
 
+.txt-white {
+    color: white;
+}
+
 .txt-red {
     color: red;
 }
@@ -91,4 +95,30 @@ main {
 
 .col:hover .d-none {
     display: block;
+}
+
+/* heart */
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+/* labels */
+.labels {
+    position: absolute;
+    bottom: 70px;
+}
+
+.discount {
+    background-color: red;
+    padding: 0.3rem 1rem;
+    margin-right: 5px;
+}
+
+.eco {
+    background-color: green;
+    padding: 0.3rem 0.8rem;
 }
